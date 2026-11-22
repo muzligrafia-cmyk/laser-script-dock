@@ -1,0 +1,54 @@
+{
+  "_help": "Edit the names, groups (category), descriptions and order of the buttons here. Buttons appear in the order listed. Set hidden to true to hide a button. New scripts dropped into this folder are added at the bottom automatically. After saving, press Refresh in the panel.",
+
+  "categories": [
+    "Laser Workflow",
+    "Production & Framing",
+    "Other"
+  ],
+
+  "scripts": [
+    {
+      "file": "Cleanup.js",
+      "name": "Cleanup",
+      "category": "Laser Workflow",
+      "description": "Remove specks and duplicate points, flag duplicate and overlapping lines",
+      "hidden": false
+    },
+    {
+      "file": "Prep.js",
+      "name": "Prep",
+      "category": "Laser Workflow",
+      "description": "Smart laser recolour and compound path split",
+      "hidden": false
+    },
+    {
+      "file": "Audit.js",
+      "name": "Audit",
+      "category": "Laser Workflow",
+      "description": "Check for illegal colours, fills, empty compounds and ghost paths",
+      "hidden": false
+    },
+    {
+      "file": "Illesztokeret.jsx",
+      "name": "Illesztőkeret",
+      "category": "Production & Framing",
+      "description": "10 mm registration frame, squares and label",
+      "hidden": false
+    },
+    {
+      "file": "DompiPoints.jsx",
+      "name": "Dompi Points",
+      "category": "Production & Framing",
+      "description": "Place up to 6 × 5 mm registration dots",
+      "hidden": false
+    },
+    {
+      "file": "Sumoisturize.jsx",
+      "name": "Sumoisturize",
+      "category": "Production & Framing",
+      "description": "−1 mm inset copy with a neutral grey fill",
+      "hidden": false
+    }
+  ]
+}

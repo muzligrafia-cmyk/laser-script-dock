@@ -1,0 +1,33 @@
+-- Building for: Visual Studio 18 2026
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The CXX compiler identification is MSVC 19.52.37029.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.52.37025/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: C:/Users/teszt/AppData/Local/Python/pythoncore-3.14-64/python.exe (found version "3.14.7") found components: Interpreter
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/Projects/DEVProjects/LaserScriptDock/build
+MSBuild version 18.12.3-1.26559.12+8df097b6f for .NET Framework
+
+  1>Checking Build System
+  Generating Adobe Illustrator plugin.pipl
+  Building Custom Rule D:/Projects/DEVProjects/LaserScriptDock/CMakeLists.txt
+  Building Custom Rule D:/Projects/DEVProjects/LaserScriptDock/CMakeLists.txt
+  LaserScriptDockPlugin.cpp
+  LaserScriptDockSuites.cpp
+  DockConfig.cpp
+  MiniJson.cpp
+  Plugin.cpp
+  Suites.cpp
+  AppContext.cpp
+  Main.cpp
+  IAIUnicodeString.cpp
+  PanelUIWin.cpp
+  ScriptExecutorWin.cpp
+  Generating Code...
+     Creating library D:/Projects/DEVProjects/LaserScriptDock/build/Release/LaserScriptDock.lib and object D:/Projects/DEVProjects/LaserScriptDock/build/Release/LaserScriptDock.exp
+  LaserScriptDock.vcxproj -> D:\Projects\DEVProjects\LaserScriptDock\build\Release\LaserScriptDock.aip
+  Building Custom Rule D:/Projects/DEVProjects/LaserScriptDock/CMakeLists.txt

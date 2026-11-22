@@ -1,0 +1,3 @@
+// Illustrator 2027 Windows resource: embed generated binary PiPL.
+#include <windows.h>
+plugin PIPL "plugin.pipl"
