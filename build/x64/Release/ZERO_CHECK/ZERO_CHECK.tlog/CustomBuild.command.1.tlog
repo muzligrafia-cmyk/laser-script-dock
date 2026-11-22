@@ -1,0 +1,10 @@
+^D:\PROJECTS\DEVPROJECTS\LASERSCRIPTDOCK\BUILD\CMAKEFILES\223E87F4C0C5D6A03C2DAFF35CC53FB9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/DEVProjects/LaserScriptDock -BD:/Projects/DEVProjects/LaserScriptDock/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projects/DEVProjects/LaserScriptDock/build/LaserScriptDock.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

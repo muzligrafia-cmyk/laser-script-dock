@@ -1,0 +1,4 @@
+D:/Projects/DEVProjects/LaserScriptDock/build/CMakeFiles/LaserScriptDockPiPL.dir
+D:/Projects/DEVProjects/LaserScriptDock/build/CMakeFiles/LaserScriptDock.dir
+D:/Projects/DEVProjects/LaserScriptDock/build/CMakeFiles/ALL_BUILD.dir
+D:/Projects/DEVProjects/LaserScriptDock/build/CMakeFiles/ZERO_CHECK.dir

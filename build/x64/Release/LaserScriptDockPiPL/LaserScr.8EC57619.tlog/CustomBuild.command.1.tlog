@@ -1,0 +1,32 @@
+^D:\PROJECTS\DEVPROJECTS\LASERSCRIPTDOCK\BUILD\CMAKEFILES\A9FDD7A7F0B119F4F7CE6F56050D8334\PLUGIN.PIPL.RULE
+setlocal
+cd D:\Projects\DEVProjects\LaserScriptDock\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\teszt\AppData\Local\Python\pythoncore-3.14-64\python.exe C:/SDK/AdobeIllustrator2027/tools/pipl/create_pipl.py -input [{\"name\":\"LaserScriptDock\",\"entry_point\":\"PluginMain\"}]
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\DEVPROJECTS\LASERSCRIPTDOCK\BUILD\CMAKEFILES\223E87F4C0C5D6A03C2DAFF35CC53FB9\LASERSCRIPTDOCKPIPL.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\DEVPROJECTS\LASERSCRIPTDOCK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/DEVProjects/LaserScriptDock -BD:/Projects/DEVProjects/LaserScriptDock/build --check-stamp-file D:/Projects/DEVProjects/LaserScriptDock/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

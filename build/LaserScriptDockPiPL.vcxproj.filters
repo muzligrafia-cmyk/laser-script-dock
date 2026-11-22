@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Projects\DEVProjects\LaserScriptDock\build\CMakeFiles\a9fdd7a7f0b119f4f7ce6f56050d8334\plugin.pipl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Projects\DEVProjects\LaserScriptDock\build\CMakeFiles\223e87f4c0c5d6a03c2daff35cc53fb9\LaserScriptDockPiPL.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Projects\DEVProjects\LaserScriptDock\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Projects\DEVProjects\LaserScriptDock\build\CMakeFiles\LaserScriptDockPiPL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A991E86A-CC8E-3124-A92C-8CE33F55D5CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
